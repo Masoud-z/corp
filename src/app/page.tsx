@@ -1,7 +1,10 @@
+import Hero from "@/components/landing/Hero";
+import homeImg from "/public/home.jpg";
+
 export default function Home() {
   return (
     <>
-      <h1>Welcome Home!</h1>
+      <Hero imageData={homeImg} imageAlt="car factory" title="Home Page!" />
     </>
   );
 }

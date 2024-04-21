@@ -1,4 +1,4 @@
-type Props = {};
+interface Props {}
 
 const Reliability = (props: Props) => {
   return <div>Reliability</div>;

@@ -1,8 +1,6 @@
 import Link from "next/link";
 
-type Props = {};
-
-const Header = (props: Props) => {
+const Header = () => {
   return (
     <div>
       <Link href="/">Home</Link>
