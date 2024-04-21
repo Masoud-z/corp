@@ -1,7 +1,7 @@
 type Props = {};
 
 const Performance = (props: Props) => {
-  return <div>page</div>;
+  return <div>Performance</div>;
 };
 
 export default Performance;
