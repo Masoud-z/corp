@@ -1,7 +1,14 @@
-interface Props {}
+import Hero from "@/components/landing/Hero";
+import reliabilityImg from "/public/reliability.jpg";
 
-const Reliability = (props: Props) => {
-  return <div>Reliability</div>;
-};
-
-export default Reliability;
+export default function Reliability() {
+  return (
+    <>
+      <Hero
+        imageData={reliabilityImg}
+        imageAlt="welding"
+        title="Super high reliability hosting!"
+      />
+    </>
+  );
+}

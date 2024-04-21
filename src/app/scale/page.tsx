@@ -1,7 +1,14 @@
-interface Props {}
+import Hero from "@/components/landing/Hero";
+import scaleImg from "/public/scale.jpg";
 
-const Scale = (props: Props) => {
-  return <div>Scale</div>;
-};
-
-export default Scale;
+export default function Scale() {
+  return (
+    <>
+      <Hero
+        imageData={scaleImg}
+        imageAlt="steel factory"
+        title="Scale your app to infinity!"
+      />
+    </>
+  );
+}
